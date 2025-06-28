@@ -1,16 +1,16 @@
-
 import React from 'react'
-import './App.css'
 import Header from './components/Header'
 import Intro from './components/Intro'
 import Skills from './components/Skills'
 import Education from './components/Education'
+import Experience from './components/Experience'
 import Projects from './components/Projects'
 import SocialMedia from './components/SocialMedia'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import './App.css'
 
-export default function App() {
+function App() {
   return (
     <div className="App">
       <Header />
@@ -18,6 +18,7 @@ export default function App() {
         <Intro />
         <Skills />
         <Education />
+        <Experience />
         <Projects />
         <SocialMedia />
         <Contact />
@@ -26,3 +27,5 @@ export default function App() {
     </div>
   )
 }
+
+export default App
