@@ -41,9 +41,18 @@ export default function Intro() {
           </div>
           <div className="intro-visual">
             <div className="profile-card">
-              <div className="profile-avatar">
-                <span className="avatar-text">MK</span>
-              </div>
+              {/* Replace the src with your actual photo URL */}
+              {false ? (
+                <img 
+                  src="/path-to-your-photo.jpg" 
+                  alt="Monali Khairnar" 
+                  className="profile-photo"
+                />
+              ) : (
+                <div className="profile-avatar">
+                  <span className="avatar-text">MK</span>
+                </div>
+              )}
               <div className="floating-elements">
                 <div className="floating-item react">⚛️</div>
                 <div className="floating-item js">JS</div>
