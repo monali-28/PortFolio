@@ -1,5 +1,4 @@
-
-import React from 'react'
+// import './Intro.css'; // Ensure your CSS styles still apply
 
 export default function Intro() {
   return (
@@ -12,33 +11,36 @@ export default function Intro() {
               <span className="role-highlight">Web Designer</span>
             </h1>
             <p className="intro-description">
-              I am a web developer, proficient in coding and maintaining 
+              I am a web developer, proficient in coding and maintaining
               websites to ensure functionality and responsiveness.
             </p>
             <div className="intro-buttons">
-              <a href="#contact" className="btn-download">
-                Download CV
+              <a href="./Monali_Khairnar.pdf" className="btn-download">
+                download CV
               </a>
-              <a href="#projects" className="btn-play">
-                ▶
-              </a>
+              
             </div>
-            <div className="social-icons">
+            {/* <div className="social-icons">
               <a href="#" className="social-icon">📍</a>
               <a href="#" className="social-icon">💼</a>
               <a href="#" className="social-icon">🐦</a>
               <a href="#" className="social-icon">📘</a>
-            </div>
+            </div> */}
           </div>
+
           <div className="intro-visual">
             <div className="profile-circle">
               <div className="profile-image">
-                <div className="avatar-placeholder">MK</div>
+                <img
+                  src="/profile-1.png"
+                  alt="Monali Khairnar"
+                  className="avatar-image"
+                />
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }

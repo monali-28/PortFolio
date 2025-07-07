@@ -1,14 +1,12 @@
-import React from 'react'
+import './App.css'
+import Contact from './components/Contact'
+import Education from './components/Education'
+import Footer from './components/Footer'
 import Header from './components/Header'
 import Intro from './components/Intro'
-import Skills from './components/Skills'
-import Education from './components/Education'
-import Experience from './components/Experience'
 import Projects from './components/Projects'
+import Skills from './components/Skills'
 import SocialMedia from './components/SocialMedia'
-import Contact from './components/Contact'
-import Footer from './components/Footer'
-import './App.css'
 
 function App() {
   return (
@@ -18,7 +16,7 @@ function App() {
         <Intro />
         <Skills />
         <Education />
-        <Experience />
+        {/* <Experience /> */}
         <Projects />
         <SocialMedia />
         <Contact />

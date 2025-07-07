@@ -1,12 +1,11 @@
 
-import React from 'react'
 
 export default function Projects() {
   const projects = [
     {
       title: "Invoice Generator",
       description: "Developed an invoice generator with ReactJS and Material UI for managing company, client, and employee details. Enabled easy creation, updating, and deletion of entries, and generated detailed invoices.",
-      image: "https://via.placeholder.com/300x200?text=Invoice+Generator&bg=667eea&color=white",
+      image: "invoice.png",
       technologies: ["ReactJS", "Material UI"],
       period: "Jan 2024 - June 2024",
       liveLink: "#",
@@ -15,25 +14,25 @@ export default function Projects() {
     {
       title: "Jal Samruddh Nashik Awareness Website",
       description: "Created a dynamic campaign website showcasing initiative details and project updates. Integrated a donation system and a social wall for users to share photos in a community gallery.",
-      image: "https://via.placeholder.com/300x200?text=Jal+Samruddh+Website&bg=764ba2&color=white",
+     image: "/water.jpg",
       technologies: ["HTML", "CSS", "JavaScript"],
       period: "April 2024",
       liveLink: "#",
-      codeLink: "#"
+      codeLink: "https://github.com/monali-28/waterFinal"
     },
     {
       title: "Agricultural Website with Chatbot",
       description: "Designed an engaging website with HTML and CSS to highlight government agricultural schemes. Implemented a Google Cloud Dialogflow chatbot for instant responses to user queries.",
-      image: "https://via.placeholder.com/300x200?text=Agricultural+Website&bg=28a745&color=white",
+      image: "agri.webp",
       technologies: ["HTML", "CSS", "Google Dialogflow"],
       period: "2022-2023",
       liveLink: "#",
-      codeLink: "#"
+      codeLink: "https://github.com/monali-28/ChatBot"
     },
     {
       title: "Smart Dustbin Using Arduino",
       description: "Developed a smart dustbin using Arduino and various sensors, including an IR sensor for motion detection, enabling hands-free operation for improved hygiene and convenience.",
-      image: "https://via.placeholder.com/300x200?text=Smart+Dustbin&bg=dc3545&color=white",
+      image: "smart_dustbin.webp",
       technologies: ["Arduino", "IR Sensor", "C++"],
       period: "2022-2023",
       liveLink: "#",
@@ -60,9 +59,9 @@ export default function Projects() {
                 ))}
               </div>
               <div className="project-links">
-                <a href={project.liveLink} target="_blank" rel="noopener noreferrer">
+                {/* <a href={project.liveLink} target="_blank" rel="noopener noreferrer">
                   Live Demo
-                </a>
+                </a> */}
                 <a href={project.codeLink} target="_blank" rel="noopener noreferrer">
                   Source Code
                 </a>
